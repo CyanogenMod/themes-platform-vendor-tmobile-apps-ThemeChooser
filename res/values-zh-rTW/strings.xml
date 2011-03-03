@@ -20,8 +20,9 @@
     <string name="app_title">選擇主題</string>
     <string name="apply">套用</string>
 
-    <string name="theme_change_dialog_title">套用中...</string>
-    <string name="switching_to_theme">正在切換至“<xliff:g id="theme">%s</xliff:g>”...</string>
+    <string name="theme_current">（使用中）</string>
+    <string name="theme_change_dialog_title">套用中…</string>
+    <string name="switching_to_theme">正在切換至“<xliff:g id="theme">%s</xliff:g>”…</string>
 
     <string name="dialog_theme_error_title">主題錯誤</string>
     <string name="dialog_missing_host_density_msg">抱歉，這個主題欠缺了適合您的裝置的螢幕大小的資源檔案。</string>
