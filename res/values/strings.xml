@@ -20,6 +20,7 @@
     <string name="app_title">Theme Chooser</string>
     <string name="apply">Apply</string>
 
+    <string name="string_system">System</string>
     <string name="theme_current"> (current)</string>
     <string name="theme_change_dialog_title">Applying...</string>
     <string name="switching_to_theme">Switching to <xliff:g id="theme">%s</xliff:g>...</string>

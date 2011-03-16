@@ -134,6 +134,9 @@ public class ThemeChooser extends Activity {
             ThemeItem item = (ThemeItem)parent.getItemAtPosition(position);
             mCurrentPositionView.setText((position + 1) + "/" + parent.getCount());
             String text = item.getName();
+            if (text.equals("System")) {
+                text = getString(R.string.string_system);
+            }
             if (mAdapter.getMarkedPosition() == position) {
                 text += getString(R.string.theme_current);
             }
